@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99D6E5912BC03D0800871341 /* AQAppForMyThesisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5902BC03D0800871341 /* AQAppForMyThesisApp.swift */; };
-		99D6E5932BC03D0800871341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5922BC03D0800871341 /* ContentView.swift */; };
+		996D3BCE2C94604F003219AE /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BCD2C94604F003219AE /* Enum.swift */; };
+		996D3BD02C946123003219AE /* Ext+locManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BCF2C946123003219AE /* Ext+locManager.swift */; };
+		996D3BD22C94637D003219AE /* Ext+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BD12C94637D003219AE /* Ext+Color.swift */; };
+		996D3BD62C946C8B003219AE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BD52C946C8B003219AE /* MapView.swift */; };
+		996D3BD82C946CC4003219AE /* SelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BD72C946CC4003219AE /* SelectedView.swift */; };
+		996D3BDA2C946CED003219AE /* LocationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996D3BD92C946CED003219AE /* LocationFormView.swift */; };
+		99D6E5912BC03D0800871341 /* AQI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5902BC03D0800871341 /* AQI.swift */; };
+		99D6E5932BC03D0800871341 /* AQIMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5922BC03D0800871341 /* AQIMainView.swift */; };
 		99D6E5952BC03D0900871341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D6E5942BC03D0900871341 /* Assets.xcassets */; };
 		99D6E5982BC03D0900871341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D6E5972BC03D0900871341 /* Preview Assets.xcassets */; };
+		99D6E5A02BC04A8200871341 /* XCAAQI in Frameworks */ = {isa = PBXBuildFile; productRef = 99D6E59F2BC04A8200871341 /* XCAAQI */; };
+		99D6E5A22BC04BBB00871341 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5A12BC04BBB00871341 /* ViewModel.swift */; };
+		99D6E5A42BC159EA00871341 /* CoordinateFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5A32BC159EA00871341 /* CoordinateFinder.swift */; };
+		99D6E5A62BC162D200871341 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6E5A52BC162D200871341 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		99D6E58D2BC03D0800871341 /* AQAppForMyThesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQAppForMyThesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D6E5902BC03D0800871341 /* AQAppForMyThesisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQAppForMyThesisApp.swift; sourceTree = "<group>"; };
-		99D6E5922BC03D0800871341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		996D3BCD2C94604F003219AE /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		996D3BCF2C946123003219AE /* Ext+locManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+locManager.swift"; sourceTree = "<group>"; };
+		996D3BD12C94637D003219AE /* Ext+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Color.swift"; sourceTree = "<group>"; };
+		996D3BD52C946C8B003219AE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		996D3BD72C946CC4003219AE /* SelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedView.swift; sourceTree = "<group>"; };
+		996D3BD92C946CED003219AE /* LocationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFormView.swift; sourceTree = "<group>"; };
+		99D6E58D2BC03D0800871341 /* AQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D6E5902BC03D0800871341 /* AQI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQI.swift; sourceTree = "<group>"; };
+		99D6E5922BC03D0800871341 /* AQIMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIMainView.swift; sourceTree = "<group>"; };
 		99D6E5942BC03D0900871341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D6E5972BC03D0900871341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99D6E5A12BC04BBB00871341 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		99D6E5A32BC159EA00871341 /* CoordinateFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateFinder.swift; sourceTree = "<group>"; };
+		99D6E5A52BC162D200871341 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,16 +45,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D6E5A02BC04A8200871341 /* XCAAQI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		996D3BDB2C9478C6003219AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99D6E5922BC03D0800871341 /* AQIMainView.swift */,
+				996D3BD52C946C8B003219AE /* MapView.swift */,
+				996D3BD72C946CC4003219AE /* SelectedView.swift */,
+				996D3BD92C946CED003219AE /* LocationFormView.swift */,
+				99D6E5A52BC162D200871341 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		996D3BDC2C9478EF003219AE /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				99D6E5A12BC04BBB00871341 /* ViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		996D3BDD2C947909003219AE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				996D3BE02C947993003219AE /* Enum */,
+				996D3BDF2C947975003219AE /* Extensions */,
+				996D3BDE2C947964003219AE /* Finder */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		996D3BDE2C947964003219AE /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				99D6E5A32BC159EA00871341 /* CoordinateFinder.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		996D3BDF2C947975003219AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				996D3BD12C94637D003219AE /* Ext+Color.swift */,
+				996D3BCF2C946123003219AE /* Ext+locManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		996D3BE02C947993003219AE /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				996D3BCD2C94604F003219AE /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 		99D6E5842BC03D0800871341 = {
 			isa = PBXGroup;
 			children = (
-				99D6E58F2BC03D0800871341 /* AQAppForMyThesis */,
+				99D6E58F2BC03D0800871341 /* AQI */,
 				99D6E58E2BC03D0800871341 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +118,22 @@
 		99D6E58E2BC03D0800871341 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99D6E58D2BC03D0800871341 /* AQAppForMyThesis.app */,
+				99D6E58D2BC03D0800871341 /* AQI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99D6E58F2BC03D0800871341 /* AQAppForMyThesis */ = {
+		99D6E58F2BC03D0800871341 /* AQI */ = {
 			isa = PBXGroup;
 			children = (
-				99D6E5902BC03D0800871341 /* AQAppForMyThesisApp.swift */,
-				99D6E5922BC03D0800871341 /* ContentView.swift */,
+				996D3BDD2C947909003219AE /* Components */,
+				996D3BDC2C9478EF003219AE /* VM */,
+				996D3BDB2C9478C6003219AE /* Views */,
+				99D6E5902BC03D0800871341 /* AQI.swift */,
 				99D6E5942BC03D0900871341 /* Assets.xcassets */,
 				99D6E5962BC03D0900871341 /* Preview Content */,
 			);
-			path = AQAppForMyThesis;
+			path = AQI;
 			sourceTree = "<group>";
 		};
 		99D6E5962BC03D0900871341 /* Preview Content */ = {
@@ -70,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99D6E58C2BC03D0800871341 /* AQAppForMyThesis */ = {
+		99D6E58C2BC03D0800871341 /* AQI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99D6E59B2BC03D0900871341 /* Build configuration list for PBXNativeTarget "AQAppForMyThesis" */;
+			buildConfigurationList = 99D6E59B2BC03D0900871341 /* Build configuration list for PBXNativeTarget "AQI" */;
 			buildPhases = (
 				99D6E5892BC03D0800871341 /* Sources */,
 				99D6E58A2BC03D0800871341 /* Frameworks */,
@@ -82,9 +159,12 @@
 			);
 			dependencies = (
 			);
-			name = AQAppForMyThesis;
+			name = AQI;
+			packageProductDependencies = (
+				99D6E59F2BC04A8200871341 /* XCAAQI */,
+			);
 			productName = AQAppForMyThesis;
-			productReference = 99D6E58D2BC03D0800871341 /* AQAppForMyThesis.app */;
+			productReference = 99D6E58D2BC03D0800871341 /* AQI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 99D6E5882BC03D0800871341 /* Build configuration list for PBXProject "AQAppForMyThesis" */;
+			buildConfigurationList = 99D6E5882BC03D0800871341 /* Build configuration list for PBXProject "AQI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +191,14 @@
 				Base,
 			);
 			mainGroup = 99D6E5842BC03D0800871341;
+			packageReferences = (
+				99D6E59E2BC04A8200871341 /* XCRemoteSwiftPackageReference "XCAAQI" */,
+			);
 			productRefGroup = 99D6E58E2BC03D0800871341 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99D6E58C2BC03D0800871341 /* AQAppForMyThesis */,
+				99D6E58C2BC03D0800871341 /* AQI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D6E5932BC03D0800871341 /* ContentView.swift in Sources */,
-				99D6E5912BC03D0800871341 /* AQAppForMyThesisApp.swift in Sources */,
+				996D3BD02C946123003219AE /* Ext+locManager.swift in Sources */,
+				99D6E5932BC03D0800871341 /* AQIMainView.swift in Sources */,
+				99D6E5A42BC159EA00871341 /* CoordinateFinder.swift in Sources */,
+				996D3BCE2C94604F003219AE /* Enum.swift in Sources */,
+				99D6E5A22BC04BBB00871341 /* ViewModel.swift in Sources */,
+				996D3BD22C94637D003219AE /* Ext+Color.swift in Sources */,
+				99D6E5A62BC162D200871341 /* CircleView.swift in Sources */,
+				996D3BDA2C946CED003219AE /* LocationFormView.swift in Sources */,
+				996D3BD82C946CC4003219AE /* SelectedView.swift in Sources */,
+				996D3BD62C946C8B003219AE /* MapView.swift in Sources */,
+				99D6E5912BC03D0800871341 /* AQI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +363,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AQAppForMyThesis/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AQI/Preview Content\"";
 				DEVELOPMENT_TEAM = B88JUJ97Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app wants to show AQ conditions around your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kurog1rik1ngdom.AQAppForMyThesis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurog1rik1ngdom.AQI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,10 +393,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AQAppForMyThesis/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AQI/Preview Content\"";
 				DEVELOPMENT_TEAM = B88JUJ97Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app wants to show AQ conditions around your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kurog1rik1ngdom.AQAppForMyThesis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kurog1rik1ngdom.AQI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +419,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99D6E5882BC03D0800871341 /* Build configuration list for PBXProject "AQAppForMyThesis" */ = {
+		99D6E5882BC03D0800871341 /* Build configuration list for PBXProject "AQI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99D6E5992BC03D0900871341 /* Debug */,
@@ -334,7 +428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99D6E59B2BC03D0900871341 /* Build configuration list for PBXNativeTarget "AQAppForMyThesis" */ = {
+		99D6E59B2BC03D0900871341 /* Build configuration list for PBXNativeTarget "AQI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				99D6E59C2BC03D0900871341 /* Debug */,
@@ -344,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99D6E59E2BC04A8200871341 /* XCRemoteSwiftPackageReference "XCAAQI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/XCAAQI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99D6E59F2BC04A8200871341 /* XCAAQI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99D6E59E2BC04A8200871341 /* XCRemoteSwiftPackageReference "XCAAQI" */;
+			productName = XCAAQI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99D6E5852BC03D0800871341 /* Project object */;
 }

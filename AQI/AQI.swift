@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct AQAppForMyThesisApp: App {
+struct AQI: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                AQIMainView()
+            }
         }
     }
 }
